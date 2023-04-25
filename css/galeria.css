@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcaafe;
+}
+
+.galeria {
+  margin-top: 20px;
+}
+
+.largura-limitada {
+  max-width: 80%;
+}
+
+.titulo-galeria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titulo-galeria h3 {
+  color: #aa0daa;
+  font-size: 26px;
+}
+
+.editar-galeria {
+  all: unset;
+  background-color: #aa0daa;
+  color: #f6f6f6;
+  padding: 5px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.box-cards {
+  display: grid;
+  gap: 50px 20px;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 75px;
+}
+
+.card img,
+.card-pessoa img {
+  width: 100%;
+}

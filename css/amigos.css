@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcaafe;
+}
+
+.largura-limitada {
+  max-width: 80%;
+}
+
+.amigos {
+  margin-top: 20px;
+}
+
+.titulo-amigos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  color: #aa0daa;
+  font-size: 26px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center
+}
+
+.btn-pesquisar {
+  all: unset;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.inputs button {
+  all: unset;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.inputs img {
+  width: 40px;
+}
+
+.box-cards-pessoas {
+  display: grid;
+  gap: 50px 20px;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 30px;
+}
+
+.card-pessoa img {
+  width: 100%;
+}

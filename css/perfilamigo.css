@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  background-color: #dcaafe;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 20px 0;
+}
+
+.largura-limitada {
+  max-width: 80%;
+}
+
+.card-pessoa {
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.card-pessoa img {
+  width: 350px;
+  padding: 10px;
+  background-color: #8000807a;
+}
+
+.card-pessoa figcaption {
+  margin-left: 35px;
+}
+
+.card-pessoa h4 {
+  font-size: 36px;
+}
+
+.card-pessoa p {
+  font-size: 26px;
+}
+
+.editar-perfil {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+  border: 0;
+}
+
+.editar-perfil img {
+  width: 100%;
+}
+
+.card-pessoa h4 {
+  font-size: 30px;
+}
+
+.bio {
+  min-height: 200px;
+  border: 1px solid purple;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.informacoes {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: purple;
+  margin: 20px 0;
+}
+
+.contato,
+.endereco {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.contato h4,
+.endereco h4 {
+  color: #fff;
+}
+
+.contato ul,
+.endereco p {
+  list-style: none;
+  color: #dfdfdf;
+  height: fit-content;
+}
+
+.galeria h3 {
+  color: #aa0daa;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.box-cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:last-child {
+  cursor: pointer;
+  position: relative;
+}
+
+.card:last-child::before {
+  content: "Ver mais";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ccc;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-pesquisar {
+  all: unset;
+  border: 3px solid purple;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
